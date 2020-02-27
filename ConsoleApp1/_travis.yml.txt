@@ -1,0 +1,7 @@
+language: csharp
+mono: none
+dotnet: 3.1
+solution: ConsoleApp1.sln //Виконавчий файл (заміняєте іменем вашого файлу )
+script: //
+ - dotnet restore //два пробіла перед командою обов’язково
+ - dotnet test //два пробіла перед командою обов’язково
